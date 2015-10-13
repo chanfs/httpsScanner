@@ -1,0 +1,9 @@
+httpsScanner Release Notes
+
+v1.2
+Removed error messages from being displayed when a SSL handshake failed. SSL handshakes failures are common for a tool like this as it is supposed to try to initiate a SSL connection using as many ciphersuites as possible and most web server do not enabled all ciphersuites.
+
+The reporting at the end of the scan is modified to be more concise. 
+
+
+
